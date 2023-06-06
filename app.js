@@ -41,3 +41,39 @@ console.log(yy);
 let zz = Number(y)
 console.log(zz);
 
+//string
+let myString = "Laptop";
+let stringUppercase = myString.toUpperCase();
+console.log("stringUppercase "+stringUppercase);
+let stringLowercase = myString.toLowerCase();
+console.log("stringLowercase" + stringLowercase);
+let stringIndexOf = myString.indexOf("p");
+console.log("stringIndexOf"+stringIndexOf);
+let stringIncludes = myString.includes("p");
+console.log("stringIncludes"+stringIncludes);
+let stringMatch =myString.match("p");
+console.log("stringMatch"+stringMatch);
+let stringSearch = myString.search("p");
+console.log("stringSearch"+stringSearch);
+let stringReplace =myString.replace("p","q");
+console.log("stringReplace"+stringReplace)
+let stringStart = myString.startsWith("L");
+console.log("stringStart"+stringStart);
+let stringEnd =myString.endsWith("p");
+console.log("stringEnd"+stringEnd);
+console.log("string to array");
+let arr = myString.split(" ");
+console.log("arr "+arr)
+let mystring2 ="Hello Bangladesh whats up";
+let arr2 = mystring2.split(" ");
+console.log("arr2"+arr2);
+let stringSlice =myString.slice(1,5);
+console.log("stringSlice"+stringSlice);
+let stringPad =myString.padStart(8,"HP");
+console.log("stringPad"+stringPad)
+let stringPadend =myString.padEnd(8,"HP");
+console.log("stringPadend"+stringPadend)
+let stringConcate =myString.concat(" in Bangladesh");
+console.log("stringConcate"+stringConcate)
+
+
