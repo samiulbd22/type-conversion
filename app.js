@@ -74,6 +74,10 @@ console.log("stringPad"+stringPad)
 let stringPadend =myString.padEnd(8,"HP");
 console.log("stringPadend"+stringPadend)
 let stringConcate =myString.concat(" in Bangladesh");
-console.log("stringConcate"+stringConcate)
+console.log("stringConcate"+stringConcate);
+console.log("Array to string");
+const myArray = ["What","is","your","name","?"];
+const strConvert = myArray.join(",");
+console.log(strConvert);
 
 
