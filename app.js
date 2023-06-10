@@ -77,7 +77,7 @@ let stringConcate =myString.concat(" in Bangladesh");
 console.log("stringConcate"+stringConcate);
 console.log("Array to string");
 const myArray = ["What","is","your","name","?"];
-const strConvert = myArray.join(",");
+const strConvert = myArray.join(" ");
 console.log(strConvert);
 
 
